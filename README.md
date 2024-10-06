@@ -2,12 +2,13 @@ _This is just a suggested template for the README of your project, feel free to 
 # \[Project Title\]
 
 ### Team Members
-- Name 1 (Project Lead)
-- Name 2
-- Name 3
+- David Wang
+- Arunjay Agrawal
+- Ish Patel
+- Harshwardhan
 
 ### Project Description
-Describe the goal of your project here.
+A web application that generates personalized course recommendations for future semesters using course data, Reddit posts and AI.
 
 ### Built With
 - List any languages, frameworks, tools, etc. that your project uses here
