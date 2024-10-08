@@ -71,12 +71,12 @@ A web application that generates personalized course recommendations for future 
 
 
 ### Running the web app
-- To start the Flask backend in a new terminal
+- Start the Flask backend in a new terminal
     ```sh
     cd backend
     python server.py
     ```
-- To start the Node.js frontend in a new terminal
+- Start the Node.js frontend in a new terminal
     ```sh
     cd frontend
     npm run dev
