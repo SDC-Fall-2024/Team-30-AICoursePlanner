@@ -71,7 +71,7 @@ A web application that generates personalized course recommendations for future 
 
 
 ### Running the web app
-- Start the Flask backend in a new terminal
+- Start the Flask backend in a new terminal after activating venv
     ```sh
     cd backend
     python server.py
