@@ -1,5 +1,6 @@
-_This is just a suggested template for the README of your project, feel free to modify this as you wish_
-# \[Project Title\]
+# AI Course Planner Web App
+
+
 
 ### Team Members
 - David Wang
@@ -7,39 +8,98 @@ _This is just a suggested template for the README of your project, feel free to 
 - Ish Patel
 - Harshwardhan
 
+
+
 ### Project Description
 A web application that generates personalized course recommendations for future semesters using course data, Reddit posts and AI.
 
+
+
 ### Built With
-- List any languages, frameworks, tools, etc. that your project uses here
+* [![Next][Next.js]][Next-url]
+* [![Flask][Flask]][Flask-url]
+* [![Tailwind][Tailwind CSS]][Tailwind-url]
+
+
 
 ## Getting Started
-This is where you give instructions on how to run your project
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm (Node JS)
+- npm ([Download Node.js])
   ```sh
   npm install npm@latest -g
   ```
+- Python ([Download Python])
+
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/SDC-Fall-2024/Team-30-AICoursePlanner
    ```
-3. Install NPM packages
+2. Set up a Python virtual environment
    ```sh
+   python -m venv venv
+   ```
+3. Activate the virtual environment
+    - Windows
+        ```sh
+        venv\Scripts\activate
+        ```
+    - macOS/Linux
+        ```sh
+        source venv/bin/activate
+        ```
+4. Install Python dependencies
+   ```sh
+   pip install Flask flask_cors
+   ```
+5. Install NPM packages
+   ```sh
+   cd frontend
    npm install
    ```
-4. Enter your API in `config.js`
+6. Get a free API Key at [https://example.com](https://example.com)
+7. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
+
+
+
+### Running the web app
+- To start the Flask backend in a new terminal
+    ```sh
+    cd backend
+    python server.py
+    ```
+- To start the Node.js frontend in a new terminal
+    ```sh
+    cd frontend
+    npm run dev
+    ```
+
+
+
 ## Demo
 If your app is hosted on a published website, include the link here
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[Download Node.js]: https://nodejs.org/en/download/prebuilt-installer
+
+[Download Python]: https://www.python.org/downloads/
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+
+[Flask]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white
+[Flask-url]: https://flask.palletsprojects.com/en/3.0.x/
+
+[Tailwind CSS]: https://img.shields.io/badge/Tailwind_CSS-black?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC
+[Tailwind-url]: https://tailwindcss.com
